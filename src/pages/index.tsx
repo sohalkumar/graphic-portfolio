@@ -12,7 +12,7 @@ const Homepage = () => {
     <>
       <RootLayout>
         <Head>
-          <title>Portfolio</title>
+          <title>Sonam</title>
         </Head>
         <Introduction />
         <Objective />
@@ -20,7 +20,6 @@ const Homepage = () => {
         <Projects />
         <AboutMe />
         <ContactMe />
-        
       </RootLayout>
     </>
   );

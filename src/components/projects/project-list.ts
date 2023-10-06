@@ -23,7 +23,7 @@ const projects = [
     alt: "project1",
     height: heightSquare,
     width: widthSquare,
-    shadow: "light"
+    shadow: "shadow-light"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const projects = [
     alt: "project2",
     height: heightSquare,
     width: widthSquare,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 3,
@@ -39,7 +39,7 @@ const projects = [
     alt: "project3",
     height: heightSquare,
     width: widthSquare,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const projects = [
     alt: "project4",
     height: heightSquare,
     width: widthSquare,
-    shadow: "light"
+    shadow: "shadow-light"
   },
   {
     id: 5,
@@ -55,7 +55,7 @@ const projects = [
     alt: "project5",
     height: heightSquare,
     width: widthSquare,
-    shadow: "light"
+    shadow: "shadow-light"
   },
   {
     id: 6,
@@ -63,7 +63,7 @@ const projects = [
     alt: "project6",
     height: heightRectangle,
     width: widthRectangle,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 7,
@@ -71,7 +71,7 @@ const projects = [
     alt: "project7",
     height: heightRectangle,
     width: widthRectangle,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 8,
@@ -79,7 +79,7 @@ const projects = [
     alt: "project8",
     height: heightSquare,
     width: widthSquare,
-    shadow: "light"
+    shadow: "shadow-light"
   },
   {
     id: 9,
@@ -87,7 +87,7 @@ const projects = [
     alt: "project9",
     height: heightSquare,
     width: widthSquare,
-    shadow: "light"
+    shadow: "shadow-light"
   },
   {
     id: 10,
@@ -95,7 +95,7 @@ const projects = [
     alt: "project10",
     height: heightSquare,
     width: widthSquare,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 11,
@@ -103,7 +103,7 @@ const projects = [
     alt: "project11",
     height: heightSquare,
     width: widthSquare,
-    shadow: "dark"
+    shadow: "shadow-dark"
   },
   {
     id: 12,
@@ -111,7 +111,7 @@ const projects = [
     alt: "project12",
     height: heightRectangle,
     width: widthRectangle,
-    shadow: "light"
+    shadow: "shadow-light"
   },
 ];
 

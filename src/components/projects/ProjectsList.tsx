@@ -7,14 +7,15 @@ const leftList = (
     {projects.map((project) => {
       if (project.id % 2 !== 0) {
         return (
-          <Image
-            key={project.id}
-            src={project.image}
-            height={project.height}
-            width={project.width}
-            alt={project.alt}
-            className={`shadow-${project.shadow}`}
-          />
+          <div key={project.id} className={`shadow-${project.shadow}`}>
+            <Image
+              src={project.image}
+              height={project.height}
+              width={project.width}
+              alt={project.alt}
+              className={project.shadow}
+            />
+          </div>
         );
       }
     })}
@@ -32,7 +33,7 @@ const rightList = (
             height={project.height}
             width={project.width}
             alt={project.alt}
-            className={`shadow-${project.shadow}`}
+            className={project.shadow}
           />
         );
       }
