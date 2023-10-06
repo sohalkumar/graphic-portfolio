@@ -11,12 +11,12 @@ const Introduction = () => {
         src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"
         defer
       ></script>
-      <Script id="particle-js-script-desktop">
+      <Script id="particle-js-script-desktop" defer>
         {`
         particlesJS.load('particles-js-desktop', '/particles-desktop.json', function(){})
             `}
       </Script>
-      <Script id="particle-js-script-mobile">
+      <Script id="particle-js-script-mobile" defer>
         {`
         particlesJS.load('particles-js-mobile', '/particles-mobile.json', function(){})
             `}
