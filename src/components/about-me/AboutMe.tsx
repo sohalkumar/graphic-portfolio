@@ -6,24 +6,24 @@ const AboutMe = () => {
       id="about-me"
       className="bg-light-beige px-8 sm:px-[7.5rem] py-[5rem] sm:py-[8rem] text-dark-black"
     >
-      <p className="font-extrabold text-[2.5rem] sm:text-[3.5rem] text-center">
+      <h2 className="font-extrabold text-[2.5rem] sm:text-[3.5rem] text-center">
         A bit <span className="text-sap-green">about</span> me
-      </p>
-      <p className="font-bold text-[1.5rem] sm:text-[2rem] text-center mt-[1.5rem] sm:mt-[3.5rem]">
+      </h2>
+      <h3 className="font-bold text-[1.5rem] sm:text-[2rem] text-center mt-[1.5rem] sm:mt-[3.5rem]">
         I am ...
-      </p>
+      </h3>
 
       {/* point 01 */}
-      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8">
+      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8 hover:scale-[1.1] duration-300">
         <div>
           <p className="text-[#bbb] font-extrabold text-[2.5rem] sm:text-[3.5rem]">
             01
           </p>
         </div>
         <div>
-          <p className="font-medium text-[1.75rem] sm:text-[2.5rem]">
+          <h4 className="font-medium text-[1.75rem] sm:text-[2.5rem]">
             a self taught graphic designer
-          </p>
+          </h4>
           <p>
             I taught myself how to design using the resources freely available
             on the internet and absolutely fell in love with the creativity
@@ -33,16 +33,16 @@ const AboutMe = () => {
       </div>
 
       {/* point 02 */}
-      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8">
+      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8 hover:scale-[1.1] duration-300">
         <div>
           <p className="text-[#bbb] font-extrabold text-[2.5rem] sm:text-[3.5rem]">
             02
           </p>
         </div>
         <div>
-          <p className="font-medium text-[1.75rem] sm:text-[2.5rem]">
+          <h4 className="font-medium text-[1.75rem] sm:text-[2.5rem]">
             a design and details fanatic
-          </p>
+          </h4>
           <p>
             Carefully crafting and designing amazing designs for a broad types
             of clients allows me to express and experiment with my creativity. I
@@ -52,7 +52,7 @@ const AboutMe = () => {
       </div>
 
       {/* point 03 */}
-      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8">
+      <div className="flex flex-col md:flex-row mt-[2.5rem] sm:mt-[5rem] max-w-[45rem] mx-auto md:gap-8 hover:scale-[1.1] duration-300">
         <div>
           <p className="text-[#bbb] font-extrabold text-[2.5rem] sm:text-[3.5rem]">
             03

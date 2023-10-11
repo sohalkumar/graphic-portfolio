@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 import Image from "next/image";
 import React from "react";
 import projects from "./project-list";
@@ -7,15 +8,20 @@ const leftList = (
     {projects.map((project) => {
       if (project.id % 2 !== 0) {
         return (
-          <div key={project.id} className={`shadow-${project.shadow}`}>
+          <motion.div
+            key={project.id}
+            initial={{ opacity: 0, x: -50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.5, type: "spring" }}
+          >
             <Image
               src={project.image}
               height={project.height}
               width={project.width}
               alt={project.alt}
-              className={project.shadow}
+              className={project.shadow + " hover:scale-[1.1] duration-300"}
             />
-          </div>
+          </motion.div>
         );
       }
     })}
@@ -27,14 +33,20 @@ const rightList = (
     {projects.map((project) => {
       if (project.id % 2 === 0) {
         return (
-          <Image
+          <motion.div
             key={project.id}
-            src={project.image}
-            height={project.height}
-            width={project.width}
-            alt={project.alt}
-            className={project.shadow}
-          />
+            initial={{ opacity: 0, x: 50 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 1.5, type: "spring" }}
+          >
+            <Image
+              src={project.image}
+              height={project.height}
+              width={project.width}
+              alt={project.alt}
+              className={project.shadow + " hover:scale-[1.1] duration-300"}
+            />
+          </motion.div>
         );
       }
     })}

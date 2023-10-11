@@ -12,7 +12,7 @@ const Homepage = () => {
     <>
       <RootLayout>
         <Head>
-          <title>Sonam</title>
+          <title>Sonam Chawla | Graphic Designer</title>
         </Head>
         <Introduction />
         <Objective />

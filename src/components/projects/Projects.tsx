@@ -10,11 +10,11 @@ const Projects = () => {
   return (
     <section
       id="projects"
-      className="bg-light-sap-green px-8 sm:px-[7.5rem] py-[5rem] sm:py-[8rem]"
+      className="bg-light-sap-green px-8 sm:px-[7.5rem] py-[5rem] sm:py-[8rem] overflow-x-hidden"
     >
-      <p className="text-light-beige text-center font-extrabold text-[2.75rem] sm:text-[3rem] drop-shadow-2xl">
+      <h2 className="text-light-beige text-center font-extrabold text-[2.75rem] sm:text-[3rem] drop-shadow-2xl">
         PREVIOUS WORK
-      </p>
+      </h2>
 
       <div className="flex flex-col md:flex-row justify-center border-t-2">
         <ProjectsList />
