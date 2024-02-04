@@ -33,6 +33,7 @@ const ContactMe = () => {
             sonamchawla02
           </Link>
         </p>
+        {/*
         <p className="hover:scale-[1.1] duration-300">
           <span className="text-light-beige">Phone - </span>
           <Link
@@ -43,6 +44,7 @@ const ContactMe = () => {
             +91 8920225044
           </Link>
         </p>
+        */}
       </div>
     </section>
   );
